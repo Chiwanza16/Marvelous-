@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Simple Calculator </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="maindiv">
+        <h1>Simple Interest Calculator</h1>
+
+        Amount <input type="number"  id="principal">  <br/>
+        Interst Rate <input type="range" id="rate" min="1" max="20-0.25" value="10.25"> <span id="rate_value">10.25%</span>
+        No. of Years <select id="years"> <option value="1">1</option> <option value="10">10</option></select> <br/>
+       
+        <span id="result">
+          <p> <button onclick="compute()">Compute Interest</button> </p>
+        </span>
+        <footer>
+            &#169; This Calculator belongs to Marvelous.
+        </footer>
+        </div>
+    </body>
+</html>
